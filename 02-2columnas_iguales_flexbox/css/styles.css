@@ -42,5 +42,12 @@ h1 {
 @media (min-width: 768px){
     .doscolumnas{
         display: flex;
+        justify-content: space-between;
+    }
+    .entrada-blog{
+        flex-basis: calc(50% - 1rem);
+        /*
+        flex: 0 0 calc(50% -1rem); esta forma tambien es muy usada
+        */
     }
 }
